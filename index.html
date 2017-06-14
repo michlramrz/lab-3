@@ -44,18 +44,17 @@
 	     <p><label><input type="checkbox" name="available_field[]" value="Friday">Friday</label></p>
 	     <p><label><input type="checkbox" name="available_field[]" value="Saturday">Saturday</label></p>
 	     <p>
-	     <strong>Comments:</strong>
+	     <label>Comments:</label>
 	     </p>
-             <form action="/html/tags/html_form_tag_action.cfm" method="post">
-             <div>
-             <textarea name="comments" id="comments" style="font-family:sans-serif;font-size:1.2em;">  
+             <p>
+             <textarea cols="40" rows="4"  name="comments_field" id="text_area">
              </textarea>
-           </div>
+             </p>
 	     <p>
              <input type="hidden" name="hidden_field" value="mramirez4">
 	     </p>
       <fieldset>
      <p><input type="submit" value="Submit"</p>
     </form>    
-</body>
+  </body>
 </html>
