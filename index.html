@@ -50,15 +50,16 @@
 	     <p>
 	     <strong>Any Comments?:</strong>
 	     </p>
-	     <p><strong>__________________________________________________________________________________</strong></p><input type="text" name="comments_field"/></p>
-	     <p><strong>__________________________________________________________________________________</strong></p><input type="text" name="comments_field"/></p>
-             <p><strong>__________________________________________________________________________________</strong><input type="text" name="comments_field"/></p>
-	   </div>
+             <form action="/html/tags/html_form_tag_action.cfm" method="post">
+             <div>
+             <textarea name="comments" id="comments" style="font-family:sans-serif;font-size:1.2em;">  
+             </textarea>
+             </div>
 	     <p>
              <input type="hidden" name="hidden_field" value="mramirez4">
 	     </p>
      <fieldset>
-     <p><input type="submit" value="Send Me"</p>
+     <p><input type="submit" value="Submit"</p>
     </form>    
 </body>
 </html>
