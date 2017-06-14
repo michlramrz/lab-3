@@ -1,37 +1,40 @@
 <!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Lab 3</title>
-</head>
-<body>
-  <h2>Volunteer Form</h2>
+	
+  <head>
+    <meta charset="UTF-8">
+    <title>Lab 3</title>
+  </head>
+  <body>
+    <h2>Volunteer Form</h2>
     <form method="POST" action=http://bloomingdale.sat.iit.edu/kriedan/lab3formscript.php" enctype="multipart/form-data">
-    <fieldset>
-      <legend>My Info<legend>
+      <fieldset>
+        <legend>My Info<legend>
       <div class="box">
 	    <p><strong>First Name:</strong> <input type="text" name="first_name_field"/><p>
      	    <p><strong>Last Name:</strong>  <input type="text" name="last_name_field"/></p>
 	    <p><strong>Phone Number:</strong>  <input type="text" name="Phone_number_field"/></p>
 	    <p><strong>Email Address:</strong>  <input type="text" name="email_field"/></p>
-		<p>
+	      <p>
 		<label>Gender:</label>
 		<label>Male<input type="radio" name="gender_field" value="Male"></label>
-		<label>Female<input type="radio" name="gender_field" value="Male"></label>
-	    </p>
+		<label>Female<input type="radio" name="gender_field" value="Female"></label>
+	      </p>
 	    <p>
 	    <label>Age</label>
-	    <select name="age_field">
-	    <option value="Under 18">Under 18</option>
-	    <option value="18 - 24">18 - 24</option>
-	    <option value="25 - 34">25 - 34</option>
-	    <option value="35 - 44">35 - 44</option>
-	    <option value="45 - 54">45 - 54</option>
-	    <option value="55 - 64">55 - 64</option>
-	    <option value="65 and over">65 and over</option>
+	      <select name="age_field">
+	      <option value="Under 18">Under 18</option>
+	      <option value="18 - 24">18 - 24</option>
+	      <option value="25 - 34">25 - 34</option>
+	      <option value="35 - 44">35 - 44</option>
+	      <option value="45 - 54">45 - 54</option>
+	      <option value="55 - 64">55 - 64</option>
+	      <option value="65 and over">65 and over</option>
+	      </select>
 	    </p>
        </div>
      </fieldset>
+				       
      <fieldset>
        <legend>My Availability</legend>
 	   <div class="box">
@@ -45,12 +48,14 @@
 	     <p><label><input type="checkbox" name="available_field[]" value="Saturday">Saturday</label></p>
 	     <p>
 	     Any Comments?:
-	     <span style="text-decoration: underline;">_____</span>
-	     <span style="text-decoration: underline;">_____</span>
-	     <span style="text-decoration: underline;">_____</span>
-	     <span style="text-decoration: underline;">_____</span>
+	     <span style="text-decoration: underline;">___________________________________________________</span>
+	     <span style="text-decoration: underline;">___________________________________________________</span>
+	     <span style="text-decoration: underline;">___________________________________________________</span>
+	     <span style="text-decoration: underline;">___________________________________________________</span>
 	   </div>
-	     <p><input type="hidden" name="hidden_field" value="mramirez4"></p>
+	     <p>
+             <input type="hidden" name="hidden_field" value="mramirez4">
+	     </p>
      <fieldset>
      <p><input type="submit" value="Send Me"</p>
     </form>    
